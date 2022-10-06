@@ -49,11 +49,11 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
             includeStarred: false
         }).catch(console.log)
     }
-        await conn.sendButton(m.chat, `*Trabas detectadas!*${isBotAdmin ? '' : '\n\n_El bot no es admin, no puede eliminar_'}`, author, ['Desactivar antitraba', '.disable antitraba'], m)
+        await conn.sendButton(m.chat, `*Hambatan terdeteksi!*${isBotAdmin ? '' : '\n\n_Bot bukan admin, tidak dapat menghapus_'}`, author, ['Nonaktifkan anti-lock', '.nonaktifkan antitraba'], m)
         if (isBotAdmin && bot.restrict) {
        return m.reply('Ok!')
         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!bot.restrict) return m.reply('Dile a mi propietario que active el restrict')
+        } else if (!bot.restrict) return m.reply('Beri tahu pemilik saya untuk mengaktifkan batasannya')
     }
     return !0
 }

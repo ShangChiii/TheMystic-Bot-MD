@@ -15,7 +15,7 @@ global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = '★Apanya - 𝙱𝚘𝚝★'
 global.wm = '★Apanya - 𝙱𝚘𝚝★'
 global.igfg = '★Apanya - 𝙱𝚘𝚝★'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.wait = '*[❗] Sedang memuat, harap tunggu sebentar...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
